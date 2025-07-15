@@ -18,7 +18,7 @@ struct ContentView: View {
                     .frame(width: 400, height: 400)
                     .foregroundColor(Color(hue: 0.451, saturation: 0.047, brightness: 0.963))
                 Button(action:{}){
-                    Text("Schedule")
+                    Text("Set Goals")
                         .font(.headline)
                         .foregroundColor(Color(hue: 0.492, saturation: 0.877, brightness: 0.155))
                         .padding(13)
