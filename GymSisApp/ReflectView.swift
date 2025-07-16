@@ -19,7 +19,7 @@ struct ReflectView: View {
                     .font(.largeTitle)
                     .fontWeight(.semibold)
                     .foregroundColor(Color(hue: 0.458, saturation: 0.12, brightness: 0.84))
-                    .padding(.top,50)
+                    .padding(.top,60)
 
                 Text(generatedText)
                     .font(.title2)
