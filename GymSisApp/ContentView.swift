@@ -24,7 +24,7 @@ import SwiftUI
                         .foregroundColor(Color(hue: 0.451, saturation: 0.047, brightness:0.155))
                     
                     NavigationLink(){
-                        
+                        calenderfixed()
                     } label: {
                         Text("Set Goals")
                             .font(.headline)
@@ -40,7 +40,7 @@ import SwiftUI
                     .padding(.bottom,13)
                     
                         NavigationLink(){
-                            ReflectView()
+                            Instructions()
                         
                         } label: {
                             Text("Log Progress")

@@ -34,7 +34,7 @@ struct Tracker: View {
             .fontWeight(.bold)
           // Water
           nutrientSection(
-            title: "Water Intake :droplet:",
+            title: "Water Intake 💦",
             current: $waterDrank,
             goal: waterGoal,
             color: Color(hue: 0.573, saturation: 0.355, brightness: 1.0),
@@ -44,7 +44,7 @@ struct Tracker: View {
           )
           // Protein
           nutrientSection(
-            title: "Protein Intake :poultry_leg:",
+            title: "Protein Intake 🍗",
             current: $proteinEaten,
             goal: proteinGoal,
             color: .orange,
@@ -54,7 +54,7 @@ struct Tracker: View {
           )
           // Fiber
           nutrientSection(
-            title: "Fiber Intake :apple:",
+            title: "Fiber Intake 🍎",
             current: $fiberEaten,
             goal: fiberGoal,
             color: .red,
