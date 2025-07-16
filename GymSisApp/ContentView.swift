@@ -7,9 +7,13 @@
 
 import SwiftUI
 
-struct ContentView: View {
+    struct ContentView: View {
     var body: some View {
-        NavigationStack{
+
+
+        NavigationStack {
+            
+
             ZStack {
                 Color(red: 0.094, green: 0.153, blue: 0.145) // Custom RGB color
                     .ignoresSafeArea()
@@ -17,7 +21,7 @@ struct ContentView: View {
                     Image("gymsis")
                         .resizable()
                         .frame(width: 400, height: 400)
-                        .foregroundColor(Color(hue: 0.451, saturation: 0.047, brightness: 0.963))
+                        .foregroundColor(Color(hue: 0.451, saturation: 0.047, brightness:0.155))
                     
                     NavigationLink(){
                         
@@ -66,6 +70,7 @@ struct ContentView: View {
                         }
                     
                     }
+
 
                 }
                 .padding()
