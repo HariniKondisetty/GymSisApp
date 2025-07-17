@@ -10,9 +10,9 @@ struct Tracker: View {
   @State private var waterDrank: Int = 0
   @State private var proteinEaten: Int = 0
   @State private var fiberEaten: Int = 0
-  let waterGoal: Int = 64
-  let proteinGoal: Int = 100
-  let fiberGoal: Int = 30
+  let waterGoal: Int = 80
+  let proteinGoal: Int = 200
+  let fiberGoal: Int = 50
   var waterProgress: Double {
     min(Double(waterDrank) / Double(waterGoal), 1.0)
   }

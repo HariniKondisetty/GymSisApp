@@ -29,29 +29,29 @@ struct Instructions: View {
 
                     // Sections
                     sectionView(
-                        title: "  Water 💦",
+                        title: "  Water ",
                         content: """
-                        • Drink half your body weight in ounces.
-                        • 140 lbs → 70 oz of water/day.
-                        • Add more if you're active or sweat often.
+                        - Drink half your body weight in ounces   
+                        - 140 lbs = 70 oz of water per day
+                        - Add more if your active or sweat often 
                         """
                     )
 
                     sectionView(
-                        title: "  Protein 🍗",
+                        title: "  Protein ",
                         content: """
-                        • Aim for 0.36g per pound of body weight.
-                        • For fitness: 0.6–1g per pound.
-                        • 150 lbs × 0.8 = ~120g/day.
+                        - Aim for 0.36g per pound of body weight 
+                        - For fitness: 0.6 to 1g per pound
+                        - 150 lbs × 0.8 = about 120g a day
                         """
                     )
 
                     sectionView(
-                        title: "  Fiber 🍎",
+                        title: "  Fiber ",
                         content: """
-                        • 25g/day for women, 38g/day for men.
-                        • Increase slowly to avoid discomfort.
-                        • Found in fruits, veggies, grains, legumes.
+                        - 25g a day for women, 38g a day for men
+                        - Increase slowly to stay comfortable
+                        - Found in fruits, veggies, and grains
                         """
                     )
 

@@ -26,7 +26,7 @@ import SwiftUI
                     NavigationLink(){
                         calenderfixed()
                     } label: {
-                        Text("Set Goals")
+                        Text("Schedule")
                             .font(.headline)
                             .foregroundColor(Color(hue: 0.492, saturation: 0.877, brightness: 0.155))
                             .padding(13)
